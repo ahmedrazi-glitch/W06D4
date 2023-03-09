@@ -18,6 +18,6 @@ class Artwork < ApplicationRecord
 
     has_many :shares, 
     foreign_key: :artwork_id,
-    class_name: :ArtworkShares
+    class_name: :ArtworkShare
 
 end

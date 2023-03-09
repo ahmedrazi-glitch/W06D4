@@ -8,7 +8,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class ArtworkShares  < ApplicationRecord
+class ArtworkShare  < ApplicationRecord
     validates :artwork_id, :viewer_id, presence: true
     
     belongs_to :artwork,

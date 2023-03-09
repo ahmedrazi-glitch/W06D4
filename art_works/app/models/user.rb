@@ -16,5 +16,5 @@ class User < ApplicationRecord
 
     has_many :artwork_shares,
     foreign_key: :viewer_id,
-    class_name: :ArtworkShares
+    class_name: :ArtworkShare
 end
